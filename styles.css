@@ -1,0 +1,73 @@
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+
+
+body {
+  background-color: #D3D9D4;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.nav_item {
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+
+  display: inline;
+  margin-right: 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+
+
+#Nav_Bar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 98%;
+
+  background-color: #212A31;
+
+  padding: 15px;
+}
+
+#LinkedIn {
+  width: 22px; 
+  position: absolute; 
+  right: 10px; 
+  top: 29%;
+}
+
+#Introduction {
+  position: relative; 
+  top: 8%;
+
+  width: 60%;
+  margin: auto;
+}
+
+#Headshot {
+  width: 45%;
+
+  border: 10px solid #124E66;
+}
+
+#Introduction_Text {
+  width: 45%;
+  margin-left: 25px;
+  text-align: center;
+
+  color: #212A31;
+}
