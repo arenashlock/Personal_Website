@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0px 2px rgb(201, 201, 201);
+  }
+
+li {
+    display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
