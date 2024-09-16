@@ -23,7 +23,8 @@ a {
   font-family: 'Open Sans', sans-serif;
   color: white;
 
-  display: inline;
+  vertical-align: middle;
+
   margin-right: 10px;
   padding-right: 20px;
   padding-left: 10px;
@@ -36,7 +37,7 @@ a {
   z-index: 100;
   top: 0;
   left: 0;
-  width: 98%;
+  width: 100vw;
 
   background-color: #212A31;
 
@@ -45,27 +46,30 @@ a {
 
 #LinkedIn {
   width: 22px; 
-  position: absolute; 
-  right: 10px; 
-  top: 29%;
+
+  vertical-align: middle;
+  
+  margin-right: 10px;
+  padding-right: 20px;
+  border-right: 1px solid #748D92;
 }
 
 #Introduction {
   position: relative; 
   top: 8%;
 
-  width: 60%;
+  width: 80vw;
   margin: auto;
 }
 
 #Headshot {
-  width: 45%;
+  width: 30%;
 
   border: 10px solid #124E66;
 }
 
 #Introduction_Text {
-  width: 45%;
+  width: 65%;
   margin-left: 25px;
   text-align: center;
 
