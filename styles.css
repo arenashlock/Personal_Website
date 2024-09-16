@@ -19,7 +19,7 @@ a {
 
 
 .nav_item {
-  font-size: 22px;
+  font-size: 2vh;
   font-family: 'Open Sans', sans-serif;
   color: white;
 
@@ -45,7 +45,7 @@ a {
 }
 
 #LinkedIn {
-  width: 22px; 
+  height: 2vh; 
 
   vertical-align: middle;
   
