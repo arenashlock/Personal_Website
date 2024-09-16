@@ -12,10 +12,19 @@
 
 body {
   background-color: #D3D9D4;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
 }
 
 
@@ -25,8 +34,7 @@ a {
 /* -------------------- CLASS: EVERY PAGE -------------------- */
 
 .nav_item {
-  font-size: 2vh;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
   color: white;
 
   vertical-align: middle;
@@ -61,7 +69,7 @@ a {
 }
 
 #LinkedIn {
-  height: 2vh; 
+  height: 15px; 
 
   vertical-align: middle;
   
@@ -77,14 +85,21 @@ a {
   margin: auto;
   margin-top: 55px;
 
-  width: 25vw;
+  width: 300px;
   border: 0.5vw solid #124E66;
 }
 
 #Introduction_Text {
-  width: 100vw;
-  margin-left: 25px;
+  width: 95vw;
+  margin: auto;
   text-align: center;
+
+  color: #212A31;
+}
+
+#About_Me_Text {
+  width: 95vw;
+  margin: auto;
 
   color: #212A31;
 }
