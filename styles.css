@@ -47,6 +47,7 @@ li {
 .nav_item {
   font-size: 15px;
   color: white;
+  text-decoration: none;
 
   vertical-align: middle;
 
