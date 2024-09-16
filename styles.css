@@ -8,6 +8,8 @@
 
 
 
+
+
 body {
   background-color: #D3D9D4;
 }
@@ -17,6 +19,10 @@ a {
 }
 
 
+
+
+
+/* -------------------- CLASS: EVERY PAGE -------------------- */
 
 .nav_item {
   font-size: 2vh;
@@ -30,7 +36,17 @@ a {
   padding-left: 10px;
 }
 
+/* -------------------- CLASS: PROJECTS PAGE -------------------- */
 
+.project {
+  margin-top: 50px;
+}
+
+
+
+
+
+/* -------------------- ID: EVERY PAGE -------------------- */
 
 #Nav_Bar {
   position: fixed;
@@ -54,24 +70,27 @@ a {
   border-right: 1px solid #748D92;
 }
 
-#Introduction {
-  position: relative; 
-  top: 8%;
-
-  width: 80vw;
-  margin: auto;
-}
+/* -------------------- ID - ABOUT ME PAGE -------------------- */
 
 #Headshot {
-  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 55px;
 
-  border: 10px solid #124E66;
+  width: 25vw;
+  border: 0.5vw solid #124E66;
 }
 
 #Introduction_Text {
-  width: 65%;
+  width: 100vw;
   margin-left: 25px;
   text-align: center;
 
   color: #212A31;
+}
+
+/* -------------------- ID: PROJECTS PAGE -------------------- */
+
+#Projects {
+  margin-top: 55px;
 }
