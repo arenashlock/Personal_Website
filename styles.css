@@ -16,15 +16,26 @@ body {
 }
 
 a {
-  text-decoration: none;
+  color: #212A31;
 }
 
 h1 {
   font-size: 30px;
+  color: #212A31;
 }
 
 p {
   font-size: 15px;
+  color: #212A31;
+}
+
+ul {
+  margin-top: -8px;
+}
+
+li {
+  font-size: 15px;
+  color: #212A31;
 }
 
 
@@ -93,15 +104,11 @@ p {
   width: 95vw;
   margin: auto;
   text-align: center;
-
-  color: #212A31;
 }
 
 #About_Me_Text {
   width: 95vw;
   margin: auto;
-
-  color: #212A31;
 }
 
 /* -------------------- ID: PROJECTS PAGE -------------------- */
