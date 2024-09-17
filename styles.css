@@ -15,18 +15,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-a {
-  color: #212A31;
-}
-
 h1 {
   font-size: 30px;
-  color: #212A31;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
 }
 
 p {
   font-size: 15px;
-  color: #212A31;
 }
 
 ul {
@@ -35,7 +34,6 @@ ul {
 
 li {
   font-size: 15px;
-  color: #212A31;
 }
 
 
@@ -59,7 +57,28 @@ li {
 /* -------------------- CLASS: PROJECTS PAGE -------------------- */
 
 .project {
-  margin-top: 50px;
+  width: fit-content;
+  height: fit-content;
+  overflow: auto;
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+
+  background-color: #124E66;
+  color: #FFFFFF;
+}
+
+.video {
+  border: solid 2px #D3D9D4; 
+
+  float: left;
+  margin: 10px;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+
+.project_github {
+  height: 20px;
 }
 
 
@@ -90,6 +109,17 @@ li {
   border-right: 1px solid #748D92;
 }
 
+#GitHub {
+  height: 15px; 
+
+  vertical-align: middle;
+  
+  margin-right: 10px;
+  padding-right: 20px;
+
+  border-right: 1px solid #748D92;
+}
+
 /* -------------------- ID - ABOUT ME PAGE -------------------- */
 
 #Headshot {
@@ -105,15 +135,28 @@ li {
   width: 95vw;
   margin: auto;
   text-align: center;
+
+  color: #212A31;
 }
 
 #About_Me_Text {
   width: 95vw;
   margin: auto;
+
+  color: #212A31;
 }
 
 /* -------------------- ID: PROJECTS PAGE -------------------- */
 
 #Projects {
-  margin-top: 55px;
+  margin-top: 58px;
+}
+
+#Project_Description {
+  float: left;
+  margin: 10px;
+  margin-left: 20px;
+  
+  height: 315px;
+  width: calc(100vw - 620px);
 }
